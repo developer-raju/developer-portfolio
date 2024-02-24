@@ -11,6 +11,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .text-primary{
@@ -47,4 +48,19 @@ nav li{
 nav a{
     text-decoration: none;
     color: #352c2c;
+}
+
+/* header style */
+.header{
+    background-color: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner .profile-pic{
+    /* height: 676px; */
+    width: 500px;
 }
