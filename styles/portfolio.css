@@ -178,4 +178,31 @@ footer{
     display: flex;
     background-color: #FFF8F3;
     padding: 130px 200px;
+    margin-top: 80px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.contact input, textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 12px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 0;
+    width: 100%;
+}
+#btn-submit{
+    border: 0;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    /* padding: 15px 35px; */
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.social-links a{
+    margin-left: 24px;
 }
